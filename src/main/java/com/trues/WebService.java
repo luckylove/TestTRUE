@@ -42,7 +42,7 @@ public class WebService {
         }  else if ("3".equals(service)) {
             searchTvsProfile(scanner);
         }  else if ("4".equals(service)) {
-            searchTmvProfile(scanner);
+            searchAllCustomerProfile(scanner);
         }  else {
             MainClass.mainMenu(scanner);
         }

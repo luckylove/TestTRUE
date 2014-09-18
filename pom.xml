@@ -51,6 +51,7 @@
                             <overWriteReleases>false</overWriteReleases>
                             <overWriteSnapshots>false</overWriteSnapshots>
                             <overWriteIfNewer>true</overWriteIfNewer>
+                            <includeArtifactIds>truewsconnector</includeArtifactIds>
                         </configuration>
                     </execution>
                 </executions>
