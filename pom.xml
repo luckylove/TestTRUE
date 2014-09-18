@@ -63,7 +63,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.ais.MainClass</mainClass>
+                            <mainClass>com.trues.MainClass</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
