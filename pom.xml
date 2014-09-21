@@ -16,6 +16,12 @@
         </dependency>
 
         <dependency>
+            <groupId>com.trues</groupId>
+            <artifactId>truedbconnector</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.codehaus.jackson</groupId>
             <artifactId>jackson-core-asl</artifactId>
             <version>1.9.12</version>
@@ -51,7 +57,7 @@
                             <overWriteReleases>false</overWriteReleases>
                             <overWriteSnapshots>false</overWriteSnapshots>
                             <overWriteIfNewer>true</overWriteIfNewer>
-                            <includeArtifactIds>truewsconnector</includeArtifactIds>
+                            <includeArtifactIds>truewsconnector,truedbconnector</includeArtifactIds>
                         </configuration>
                     </execution>
                 </executions>
